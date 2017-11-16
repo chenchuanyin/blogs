@@ -3,6 +3,7 @@ title: "git status中文显示不对问题修复"
 date: 2017年11月 7日 星期二 16时20分51秒 CST
 tags: git
 author: chenchuanyin
+category: 学习
 ---
 
 如题，我的mac上git status显示
