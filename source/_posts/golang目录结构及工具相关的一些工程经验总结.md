@@ -1,5 +1,5 @@
 ---
-title: "golang目录结构及工具"
+title: "golang目录结构及工具相关的一些工程经验总结"
 date: 2017年11月16日 星期四 11时15分37秒 CST
 tags: [golang]
 author: chenchuanyin
@@ -8,12 +8,14 @@ category: 学习
 
 > 在开发golang组件的时候需要版本管理及组件管理，自己形成了一套模式框架，对于常规项目开发可以方便套用。
 
-# 工具
+### 工具
 * 使用glide工具进行第三方版本包管理，不用依赖环境变量$GOPATH
-* 使用makefile作为脚本工具，进行下载三方包，构建，打包
+* 使用makefile作为脚本工具，管理下载三方包，构建，打包
 * 使用emacs+gocode来进行代码编写
 
-# 目录结构
+### 目录结构
+
+
 ```text
 .
 ├── Makefile       :脚本
@@ -27,6 +29,8 @@ category: 学习
 ```
 
 * Makefile的模板如下：
+
+
 ```makefile
 PWD := $(shell pwd)
 GO := go

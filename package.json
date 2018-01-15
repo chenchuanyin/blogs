@@ -23,6 +23,7 @@
     "hexo-renderer-marked": "^0.2.11",
     "hexo-renderer-org": "git+https://github.com/CodeFalling/hexo-renderer-org.git#emacs",
     "hexo-renderer-sass": "^0.3.2",
+    "hexo-renderer-scss": "^1.1.0",
     "hexo-renderer-stylus": "^0.2.3",
     "hexo-server": "^0.2.2"
   }

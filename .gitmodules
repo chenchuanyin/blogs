@@ -1,0 +1,9 @@
+[submodule "themes/adoubi"]
+	path = themes/adoubi
+	url = https://github.com/shinux/hexo-theme-adoubi.git
+[submodule "themes/even"]
+	path = themes/even
+	url = https://github.com/ahonn/hexo-theme-even
+[submodule "themes/vexo"]
+	path = themes/vexo
+	url = https://github.com/yanm1ng/hexo-theme-vexo.git
