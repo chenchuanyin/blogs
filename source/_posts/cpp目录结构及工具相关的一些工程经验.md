@@ -6,7 +6,7 @@ author: chenchuanyin
 category: 学习
 ---
 
-> 在开发Linux环境下cpp组件时需要版本管理及组件管理，自己形成了一套模式框架，对于常规项目开发可以方便套用。
+> 在开发Linux环境下cpp组件时，自己形成了一套模式框架，对于常规项目开发可以方便套用。
 
 ### 工具
 * 编辑器：使用emacs，配置文件使用spacemacs
@@ -58,12 +58,13 @@ category: 学习
 .
 ├── CMakeLists.txt         :cmake工程文件
 ├── Makefile               :构建管理文件
-├── .clang_complete        :自动补全依赖文件
+├── .clang_complete        :自动补全设置文件
 ├── doc                    :文档目录
     ├── README.md
 ├── out                    :构建编译编译目录
 ├── src                    :项目代码目录
 │   ├── CMakeLists.txt
+│   ├── .clang-format      :代码格式化设置文件
 └── third_party            :第三方依赖目录
     ├── abseil-cpp
     ├── benchmark
